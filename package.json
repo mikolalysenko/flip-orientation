@@ -1,0 +1,35 @@
+{
+  "name": "flip-orientation",
+  "version": "1.0.0",
+  "description": "Flips the orientation of a cell",
+  "main": "flip.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cell-orientation": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/flip-orientation.git"
+  },
+  "keywords": [
+    "toplogy",
+    "cell",
+    "orientation",
+    "simplicial",
+    "complex"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/flip-orientation/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/flip-orientation"
+}

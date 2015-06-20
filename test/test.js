@@ -11,7 +11,7 @@ tape('flip orientation', function(t) {
     for(var j=0; j<3; ++j) {
       c[j] = (Math.random()*10)|0
     }
-    var expected = orientation(c)
+    var expected = -orientation(c)
     var actual = orientation(flip(c))
     t.equals(actual, expected)
   }
